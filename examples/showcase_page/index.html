@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>CSS Test</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .box {
+      color: #aa00aa;
+    }
+
+    #footer {
+      background-color: #ffeecc;
+    }
+  </style>
+</head>
+
+<body style="color: #cc0000;">
+
+  <h1 style="text-align: center; background-color:burlywood;">H1 TEXT</h1>
+  <h2 style="text-align: center; background-color:burlywood;">H2 TEXT</h2>
+  <h3 style="text-align: center; background-color:burlywood;">H3 TEXT</h3>
+  <p style="font-weight: 700; text-align: right; font-size: 30px;">Bold text on the right</p>
+
+  <div id="hero" class="box">
+    <h1>Hello World</h1>
+    <p>This p should be BLUE from style.css (unless overwritten).</p>
+    <p style="color:rgb(255, 0, 98); font-size: 50px">This p is inline style ->should be pink ♥.
+    </p>
+  </div>
+
+  <div class="box">
+    <p>Div.box without id: color should be #aa00aa (from inline style in head)</p>
+  </div>
+
+  <div style="color: red; background-color: aquamarine">
+    Spiny lobsters, also known as langustas, langoustes, or rock lobsters are marine decapod crustaceans belonging to
+    the family Palinuridae. Spiny lobsters are also, especially in Australia, New Zealand, Ireland, South Africa, and
+    the Bahamas, called crayfish, sea crayfish, or crawfish ("kreef" in South Africa), terms which elsewhere are
+    reserved for freshwater crayfish.
+    Like true lobsters, spiny lobsters belong to the clade Reptantia. The furry lobsters (such as Palinurellus) were
+    previously separated into a family of their own, the Synaxidae, but they are usually considered members of the
+    Palinuridae. The slipper lobsters (Scyllaridae) are their next-closest relatives, and these two or three families
+    make up the Achelata. Genera of spiny lobsters include Palinurus and a number of anagrams thereof: Panulirus,
+    Linuparus, etc. The name derives from the small Italian port of Palinuro, which was known for harvesting the
+    European spiny lobster (Palinurus elephas) in ancient Roman times. The town itself was named for the legendary
+    figure of Palinurus, who was a helmsman in Virgil's.
+  </div>
+  <div class="box">
+    <p>Div.box without id: color should be #aa00aa (from inline style in head)</p>
+  </div>
+
+  <div style="display: flex; flex-direction: row; color: antiquewhite; font-weight: bold">
+    <div style="padding: 10px; border-width: 1px; background-color: red;">Menu 1</div>
+    <div style="padding: 10px; border-width: 1px; background-color: green;">Menu 2</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column;">
+    <div style="padding: 10px; border-width: 1px; background-color: white">
+      <a href="../complex_page/index.html" style="font-size: 24px; color: blue; background-color: white;">Jump to
+        another page</a>
+    </div>
+  </div>
+
+
+  <div style="color: red;">
+    <p>Text</p>
+  </div>
+
+  <div id="footer" class="hidden">
+    <p>Hidden footer (display none via .hidden)</p>
+  </div>
+  <h1 style="text-align: center; background-color:burlywood;">H1 TEXT</h1>
+  <h2 style="text-align: center; background-color:burlywood;">H2 TEXT</h2>
+  <h3 style="text-align: center; background-color:burlywood;">H3 TEXT</h3>
+  <h1 style="text-align: center; background-color:burlywood;">H1 TEXT</h1>
+  <h2 style="text-align: center; background-color:burlywood;">H2 TEXT</h2>
+  <h3 style="text-align: center; background-color:burlywood;">H3 TEXT</h3>
+  <h1 style="text-align: center; background-color:burlywood;">H1 TEXT</h1>
+  <h2 style="text-align: center; background-color:burlywood;">H2 TEXT</h2>
+  <h3 style="text-align: center; background-color:burlywood;">H3 TEXT</h3>
+</body>
+
+</html>

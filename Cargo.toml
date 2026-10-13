@@ -1,0 +1,15 @@
+[package]
+name = "Rustzilla"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+css-color-parser = "0.1.2"
+taffy = "0.7.7"
+scraper = "0.25.0"
+image = "0.24"
+imageproc = "0.23"
+rusttype = "0.9"
+eframe = "0.33.3"
+egui = "0.33.3"
+regex = "1.12.3"

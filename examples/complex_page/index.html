@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Page title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <h1 style="color: #cc0000;">Rust Desktop Renderer</h1>
+
+    <div class="section">
+      <h2>Introduction</h2>
+      <p>
+        This page is rendered using a custom HTML and CSS engine written in Rust.
+      </p>
+      <p>
+        It supports basic block and inline elements, colors, margins, and simple selectors.
+      </p>
+    </div>
+
+    <div class="section highlight">
+      <h2>Styled Content</h2>
+
+      <div class="card">
+        <h3>Card Title</h3>
+        <p>
+          This card demonstrates margins, padding, background color, and text color.
+        </p>
+        <p style="color: #cc0000;">
+          This paragraph uses inline styles to override CSS.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Another Card</h3>
+        <p>
+          CSS class selectors and tag selectors both apply here.
+        </p>
+      </div>
+    </div>
+
+    <div style="padding: 10px; background-color: lightgrey">
+      <a href="../showcase_page/index.html" style="font-size: 24px;">Jump back to showcase page</a>
+    </div>
+
+    <div style="display: flex; flex-direction: row;">
+      <div style="padding: 10px; background-color: red; margin: 5px">Menu 1</div>
+      <div style="padding: 10px; background-color: green; margin: 5px">Menu 2</div>
+      <div style="padding: 10px; background-color: brown; margin: 5px">Menu 3</div>
+      <div style="padding: 10px; background-color: orange; margin: 5px">Menu 4</div>
+    </div>
+
+    <div class="section hidden">
+      <h2>Hidden Section</h2>
+      <p>
+        You should never see this section because it uses display none.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Footer</h2>
+      <p>
+        This is the end of the demo page.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

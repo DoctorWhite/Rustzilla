@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f0f0;
+  margin: 10px;
+  color: #222;
+}
+
+div {
+  margin: 5px;
+  background-color: #ffffff;
+}
+
+.box {
+  color: #ff0000;
+  margin: 20px;
+}
+
+#hero {
+  background-color: #ddeeff;
+  color: #008800;
+}
+
+div.box#hero {
+  margin: 40px;
+}
+
+p {
+  color: #00ff08;
+}
+
+.hidden {
+  display: none;
+}

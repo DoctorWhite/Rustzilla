@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+#app {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.section {
+    margin: 24px;
+    padding: 16px;
+}
+
+.section h2 {
+    color: #003366;
+}
+
+.highlight {
+    background-color: #eef4ff;
+}
+
+.card {
+    margin: 16px;
+    padding: 16px;
+    background-color: #ddddff;
+    color: #111111;
+}
+
+.badge {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 4px;
+}
+
+h3 {
+    margin: 12px;
+    color: #004488;
+}
+
+.hidden {
+    display: none;
+}
